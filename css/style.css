@@ -1,0 +1,12 @@
+/* font-family: 'Hammersmith One', sans-serif;
+font-family: 'Headland One', serif;
+font-family: 'Inter', sans-serif; */
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: green;
+}
+.container{
+    width: 1062px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
