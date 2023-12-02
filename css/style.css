@@ -214,18 +214,50 @@ body{
     font-weight: 400;
 }
 .footer{
-    background-image: url(../img/);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/footer.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 233px;
 }
 .footer-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.footer-mail{
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-line{
+    width: 2px;
+    height: 153px;
+    background-color: var(--quote-background);
+    margin-left: -;
+}
+/* .footer-logo-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.footer-mail-wrap{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+.footer-mail{
+    color: var(--hero-text);
+    font-size: 20px;
+    font-weight: 400px;
+}
+/* .footer-mail:nth-child(n+3){
+    margin-right: 309px;
+} */
+
 .footer-mail-item{
     display: flex;
     flex-direction: row;
+}
+.copyright{
+    margin-top: 37px;
 }
